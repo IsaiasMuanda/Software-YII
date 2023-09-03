@@ -162,7 +162,6 @@ namespace Projecto_YII.Projecto.YII.DAO
                     formTelaInicial_.Show();
                     formTelaInicial_.buttonSistema.Enabled = false;
                     formTelaInicial_.buttonFuncionarios.Enabled = false;
-                    formTelaInicial_.buttonFornecedores.Enabled = false;
                 }
                 return true;
            
