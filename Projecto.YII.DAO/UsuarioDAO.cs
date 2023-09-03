@@ -136,13 +136,13 @@ namespace Projecto_YII.Projecto.YII.DAO
 
         #region Login
 
-        public bool Login(string username, string password)
+        public bool Login(string nome_usuario, string palavra_passe)
         {
             string sql = "select * from usuario where nome_usuario = @username and palavra_passe = @password";
             MySqlCommand cmd = new MySqlCommand( sql, conexao );
 
-            cmd.Parameters.AddWithValue("@username", username);
-            cmd.Parameters.AddWithValue("@password", password);
+            cmd.Parameters.AddWithValue("@username", nome_usuario);
+            cmd.Parameters.AddWithValue("@password", palavra_passe);
 
             conexao.Open();
 
