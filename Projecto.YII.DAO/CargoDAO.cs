@@ -34,7 +34,7 @@ namespace Projecto_YII.Projecto.YII.DAO
                 conexao.Open();
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("Cargo Adicionado Com Sucesso");
+                MessageBox.Show("Novo Cargo Adicionado Com Sucesso");
 
                 conexao.Close();
             }
